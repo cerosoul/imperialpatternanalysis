@@ -62,7 +62,8 @@
       const answer = parseInt(document.getElementById('answer').value);
       const resultDiv = document.getElementById('result');
       if (answer === 37) {
-        resultDiv.innerHTML = 'PATTERN MATCHED. PASSWORD: <strong>IMPERIAL37</strong>';
+        resultDiv.innerHTML = 'PATTERN MATCHED. PASSWORD: <strong>IMPERIAL37</strong>' +
+        '<br/><br/> Go to the entrance of Outpost 77 to continue.';
         resultDiv.style.color = '#00ff00';
       } else {
         resultDiv.innerHTML = 'PATTERN MISMATCH. REPROCESS.';
